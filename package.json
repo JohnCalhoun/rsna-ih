@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "update": "make && ./bin/upload.sh && ./templates/main/bin/update.js",
+    "up": "make && ./bin/upload.sh && ./templates/main/bin/launch.js",
+    "upload": "make && ./bin/upload.sh",
+    "down": "./templates/main/bin/delete.js"
   },
   "author": "",
   "license": "ISC"

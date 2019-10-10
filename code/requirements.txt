@@ -1,0 +1,7 @@
+pydicom
+numpy
+pillow
+pandas
+boto3
+mxnet
+opencv-python
