@@ -10,5 +10,13 @@
     "down": "./templates/main/bin/delete.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.547.0",
+    "bluebird": "^3.7.0",
+    "chalk": "^2.4.2",
+    "lodash": "^4.17.15",
+    "ora": "^4.0.2",
+    "uglify-es": "^3.3.9"
+  }
 }

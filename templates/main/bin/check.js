@@ -1,7 +1,6 @@
 #! /usr/bin/env node
 var aws=require('./aws')
 var fs=require('fs')
-var Promise=require('bluebird')
 var cf=new aws.CloudFormation()
 var s3=new aws.S3()
 var chalk=require('chalk')

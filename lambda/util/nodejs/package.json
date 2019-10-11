@@ -1,0 +1,16 @@
+{
+  "name": "unzip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "update": "cd ../../ && npm run update",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.382.0",
+    "lodash": "^4.17.11"
+  }
+}

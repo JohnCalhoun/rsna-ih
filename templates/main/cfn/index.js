@@ -46,7 +46,6 @@ module.exports=Object.assign(
                 "s3:*"
               ],
               "Resource":[
-                {"Fn::Sub":"arn:aws:s3:::${Variables.DataBucket}*"},
                 {"Fn::Sub":"arn:aws:s3:::${AssetBucket}*"}
               ]
             },
@@ -57,14 +56,6 @@ module.exports=Object.assign(
               ],
               "Resource":"*"
             },
-            {
-              "Effect": "Allow",
-              "Action": [
-                "ssm:Get*",
-                "ssm:Put*"
-              ],
-              "Resource":{"Fn::Sub":"arn:aws:ssm:${AWS::Region}:${AWS::AccountId}:parameter/${ParameterStore}"}
-            }
           ]
         }
       }

@@ -1,6 +1,4 @@
 var fs=require('fs')
-var UglifyJS = require("uglify-es");
-var chalk=require('chalk')
 var _=require('lodash')
 
 module.exports={

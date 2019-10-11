@@ -4,7 +4,7 @@ var fs=require('fs')
 var _=require('lodash')
 process.env.AWS_PROFILE=config.profile
 process.env.AWS_DEFAULT_REGION=config.profile
-var project="SageBuild"
+var project="rnsa-ih"
 
 exports.inc=()=>run({inc:true})
 exports.get=()=>run({inc:false})
